@@ -1,0 +1,59 @@
+body{background-color:darkred;}
+
+.opp-grid {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+.play-mat {
+    width: 100%;
+    height: 250px;
+    background-color: darkred;
+   
+}
+.grid{
+  width:100%;
+  height:250px;
+  background-color:black;
+  display:flex;
+  
+}
+.card{
+    position:absolute;
+    width: 160px;
+    height: 200px;
+    background-color:firebrick;
+    border-radius:10px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.hand{
+    position: relative;
+    width: 160px;
+    height: 200px;
+    background-color:antiquewhite;
+    margin:5px;
+    left:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+}
+.grave-yard {
+    position: absolute;
+    width: 160px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+
+    
